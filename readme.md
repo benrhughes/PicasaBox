@@ -1,3 +1,6 @@
+##About
+PicasaBox is a php script that uses Lightbox to display (publicly accessible) images from your PicasaWeb album
+
 ##INSTALLATION
 
 1. Download LightBox from http://www.huddletogether.com/projects/lightbox2/ and unzip the file to a folder called picasabox
