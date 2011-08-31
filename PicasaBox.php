@@ -5,13 +5,12 @@
 | PicasaBox is a php script that uses Lightbox to display images from your 
 | PicasaWeb album.
 |
-| It is a derivative of PicasaViewer, which does the same thing using 
-| SimpleViewer. See http://benhughes.freehostia.com/picasaviewer.
-|
 | XML parsing logic from 
 |	http://www.sitepoint.com/article/php-xml-parsing-rss-1-0
 |
-| Created by Ben Hughes - benhughes.freehostia.com
+| See https://github.com/benrhughes/PicasaBox for updated and instructions.
+|
+| Created by Ben Hughes - benrhughes.com
 | 16 July 2007
 | Version 1.0
 |
@@ -20,29 +19,6 @@
 |	  (CONTENT SRC) seems to have been removed from the feed
 | Version 1.2
 |	- Very minor change to make compatable with Lightbox 2.04
-------------------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------------------
-| INSTALLATION
-|
-| 1. Download LightBox from http://www.huddletogether.com/projects/lightbox2/ 
-|    and unzip the file to a folder called picasabox
-| 2. Delete picasabox/index.html
-| 3. Download PicasaBox from benhughes.freehostia.com/PicasaBox
-| 4. Unzip PicasaBox.zip to the picasabox folder, and edit the user 
-|    configuration section of PicasaBox.php
-| 5. Upload the Lightbox directory to your web server
-|
-| PicasaBox is now installed. To use it simply enter:
-|	http//www.yourhost.com/picasabox/PicasaBox.php?album=somealbum
-| where yourhost is your web host, picasabox is the folder you uploaded
-| the files to, and somealbum is one of your PicasaWeb albums
-|
-| If you want to, rename PicasaBox.php to index.php, which will allow you to use
-| a URL like:
-| 	http//www.yourhost.com/PicasaBox/?album=somealbum
-|
-| That's it!
 ------------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------
